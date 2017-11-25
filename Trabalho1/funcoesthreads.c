@@ -1,6 +1,7 @@
 #include "funcoesthreads.h"
 
 void esperar(){
+  //previne a repeticão do rand()
   srand(time(NULL));
   int segundos = (rand() % 3);
   sleep(segundos);
