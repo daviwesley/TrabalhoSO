@@ -1,0 +1,2 @@
+# TrabalhoSO
+Usando threads POSIX
