@@ -1,7 +1,8 @@
 #include "funcoesthreads.h"
 
 void esperar(){
-  int segundos = 1 + ( rand() % 1 );
+  srand(time(NULL));
+  int segundos = (rand() % 3);
   sleep(segundos);
 }
 
@@ -40,3 +41,4 @@ void* funcao_thread3(void* vetor){
   }
   return NULL;
   }
+
